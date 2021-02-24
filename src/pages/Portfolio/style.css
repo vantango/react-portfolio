@@ -1,0 +1,42 @@
+/* applies margin parameters for container class */
+.container {
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 8%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+/* applies styling elements and gives a relative position */
+.jumbotron {
+    justify-content: center;
+    background: linear-gradient(rgb(124, 155, 133), rgb(36, 36, 36));
+    margin-top: 6%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 30%;
+    color: white;
+}
+
+.portfolioText {
+    text-align: center;
+}
+
+.soThirsty {
+    max-width: 100%;
+}
+
+#portfolio {
+    margin-right: 12%;
+    margin-left: 16%;
+    margin-bottom: 10%;
+    min-height: 80%;
+}
+
+/* adds google font styling to jumbotron header for each page */
+.display-4 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: xx-large;
+    font-weight: 500;
+}

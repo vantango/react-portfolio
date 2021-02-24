@@ -1,0 +1,157 @@
+/* adds google font styling to logo name */
+.navbar-brand {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Overlock SC', cursive;
+}
+
+.navbar {
+    width: 100vw;
+    background-color:rgb(36, 36, 36);
+    border-style: solid;
+    border-bottom-color: rgb(124, 155, 133);
+}
+
+/* makes navbar stay relative to screen resolution */
+#navbarNav {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.active {
+    background-color:rgb(124, 155, 133);
+    border-radius: 1rem;
+}
+
+/* applies margin parameters for container class */
+.container {
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 8%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+/* applies styling elements and gives a relative position */
+.jumbotron {
+    justify-content: center;
+    background: linear-gradient(rgb(124, 155, 133), rgb(36, 36, 36));
+    margin-top: 6%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 30%;
+    color: white;
+}
+
+.portfolioText {
+    text-align: center;
+}
+
+.soThirsty {
+    max-width: 100%;
+}
+
+.img-caption {
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
+}
+
+#portfolio {
+    margin-right: 12%;
+    margin-left: 16%;
+    margin-bottom: 10%;
+    min-height: 80%;
+}
+
+#about {
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.h3 {
+    text-align: center;
+}
+
+/* adds google font styling to jumbotron header for each page */
+.display-4 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+/* sets input box width */
+input {
+    width: max-content;
+}
+
+/* adds padding to the socials links */
+.socials {
+    padding: 20px;
+}
+
+/* sets styling to about me picture and makes it responsive */
+.img-responsive {
+    max-width: 50%;
+    height: auto;
+    width: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+/* adds styling to thumbnail images and makes them responsive */
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+/* adds color styling to submit button */
+.btn {
+    background-color:rgb(45, 48, 54);
+    border-color: black;
+}
+
+/* applies styling properties to footer and fixes it's position*/
+.footer {
+    width: 100%;
+    bottom: 0;
+    background-color: rgb(36, 36, 36);
+    border-style: solid;
+    border-top-color:rgb(124, 155, 133);
+    position: fixed;
+}
+
+/* aligns copyright text to center */
+.text-center text-muted {
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .display-4 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        width: 100vw;
+        margin: auto 0;
+        float: none;
+    }
+}

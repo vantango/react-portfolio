@@ -4,6 +4,9 @@
     
 ## Description: 
 We were tasked with rebuilding our original HTML/CSS portfolios using React.
+
+## Deployment
+https://akm-react-portfolio1.herokuapp.com/
             
 ## Table of Contents
 - [Installation](#Installation)

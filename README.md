@@ -1,5 +1,5 @@
 
-# React Portfolio
+# React Portfolio (PLEASE SEE CURRENT PORTFOLIO: www.alekskm.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
 ## Description: 
